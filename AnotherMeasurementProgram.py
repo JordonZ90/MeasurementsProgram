@@ -7,6 +7,7 @@ def display_menu():
     print("2. Meters to Kilometers")
     print()
 
+
 def convert_measurements():
     option = int(input("Enter a menu option "))
     if option == 1:
@@ -21,6 +22,7 @@ def convert_measurements():
         print(f"Measurement in meters {meters} converted to {kilometers} kilometers")
     else:
         print("Tou must enter a valid menu number")
+
 
 def main():
     display_menu()

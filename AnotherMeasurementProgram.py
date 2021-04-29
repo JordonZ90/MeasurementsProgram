@@ -21,7 +21,7 @@ def convert_measurements():
         kilometers = round(kilometers, 2)
         print(f"Measurement in meters {meters} converted to {kilometers} kilometers")
     else:
-        print("Tou must enter a valid menu number")
+        print("You must enter a valid menu number")
 
 
 def main():
